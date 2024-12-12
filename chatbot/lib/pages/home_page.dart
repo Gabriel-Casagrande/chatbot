@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
 
   List<ChatMessage> messages = [];
 
-  ChatUser currentUser = ChatUser(id: "0", firstName: "User");
+  ChatUser currentUser = ChatUser(id: "0", firstName: "Usuário");
   ChatUser geminiUser = ChatUser(
     id: "1",
     firstName: "Gemini",
